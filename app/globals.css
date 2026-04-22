@@ -154,7 +154,10 @@ img {
   transition: width 180ms ease, top 180ms ease, background 180ms ease, box-shadow 180ms ease, backdrop-filter 180ms ease, border-radius 180ms ease, padding 180ms ease;
 }
 
-.pageScrolled .nav {
+html.pageScrolled .nav,
+body.pageScrolled .nav,
+.pageScrolled .nav,
+.nav.navScrolled {
   width: min(1480px, calc(100% - 16px));
   top: 0;
   background: rgba(255, 255, 255, 0.96);
