@@ -7,6 +7,11 @@ export const metadata: Metadata = {
     default: 'ERP | Smart ERP Software Guide',
     template: '%s | ERP',
   },
+  icons: {
+    icon: '/erp_logo.png',
+    shortcut: '/erp_logo.png',
+    apple: '/erp_logo.png',
+  },
   description:
     'Explore ERP software modules, benefits, implementation strategy, demo requests, and selection guidance for finance, inventory, HR, manufacturing, sales, and supply chain teams.',
   keywords: [
