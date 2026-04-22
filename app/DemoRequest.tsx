@@ -23,40 +23,40 @@ export default function DemoRequest() {
     <section className='demoRequest animatedSection' id='demo'>
       <div className='demoIntro'>
         <p className='eyebrow'>
-          <LangText en='Request A Demo' bn='\u09a1\u09c7\u09ae\u09cb \u09b0\u09bf\u0995\u09cb\u09df\u09c7\u09b8\u09cd\u099f' />
+          <LangText en='Request A Demo' bn='ডেমো অনুরোধ' />
         </p>
         <h2>
           <LangText
             en='See how ERP can match your real workflow.'
-            bn='\u0986\u09aa\u09a8\u09be\u09b0 \u09ac\u09be\u09b8\u09cd\u09a4\u09ac \u0995\u09be\u099c\u09c7\u09b0 \u09b8\u09be\u09a5\u09c7 ERP \u0995\u09c0\u09ad\u09be\u09ac\u09c7 \u09ae\u09c7\u09b2\u09c7 \u09a4\u09be \u09a6\u09c7\u0996\u09c1\u09a8\u0964'
+            bn='আপনার বাস্তব কাজের সাথে ERP কীভাবে মিলে তা দেখুন।'
           />
         </h2>
         <p>
           <LangText
             en='Share a few details about your company, and the demo can focus on the modules, reports, and approval flows that matter most.'
-            bn='\u0986\u09aa\u09a8\u09be\u09b0 \u0995\u09cb\u09ae\u09cd\u09aa\u09be\u09a8\u09bf\u09b0 \u0995\u09bf\u099b\u09c1 \u09a4\u09a5\u09cd\u09af \u09a6\u09bf\u09b2\u09c7 \u09a1\u09c7\u09ae\u09cb\u099f\u09bf \u09aa\u09cd\u09b0\u09df\u09cb\u099c\u09a8\u09c0\u09df \u09ae\u09a1\u09bf\u0989\u09b2, \u09b0\u09bf\u09aa\u09cb\u09b0\u09cd\u099f \u0993 \u0985\u09a8\u09c1\u09ae\u09cb\u09a6\u09a8 \u09ab\u09cd\u09b2\u09cb \u0985\u09a8\u09c1\u09af\u09be\u09df\u09c0 \u09b8\u09be\u099c\u09be\u09a8\u09cb \u09af\u09be\u09ac\u09c7\u0964'
+            bn='আপনার প্রতিষ্ঠানের কিছু তথ্য শেয়ার করুন, তাহলে ডেমোটি আপনার জন্য গুরুত্বপূর্ণ মডিউল, রিপোর্ট এবং অনুমোদন প্রবাহের ওপর বেশি গুরুত্ব দিতে পারবে।'
           />
         </p>
         <div className='demoHighlights' aria-label='Demo focus areas'>
           <span>
-            <LangText en='Process review' bn='\u09aa\u09cd\u09b0\u09b8\u09c7\u09b8 \u09b0\u09bf\u09ad\u09bf\u0989' />
+            <LangText en='Process review' bn='প্রক্রিয়া পর্যালোচনা' />
           </span>
           <span>
-            <LangText en='Module mapping' bn='\u09ae\u09a1\u09bf\u0989\u09b2 \u09ae\u09cd\u09af\u09be\u09aa\u09bf\u0982' />
+            <LangText en='Module mapping' bn='মডিউল মানচিত্র' />
           </span>
           <span>
-            <LangText en='Implementation guidance' bn='\u09ac\u09be\u09b8\u09cd\u09a4\u09ac\u09be\u09df\u09a8 \u0997\u09be\u0987\u09a1' />
+            <LangText en='Implementation guidance' bn='বাস্তবায়ন নির্দেশনা' />
           </span>
         </div>
       </div>
 
       <form className='demoForm' onSubmit={handleSubmit}>
         <label>
-          <LangText en='Full name' bn='\u09a8\u09be\u09ae' />
+          <LangText en='Full name' bn='পূর্ণ নাম' />
           <input name='name' type='text' placeholder='Your name' required />
         </label>
         <label>
-          <LangText en='Work email' bn='\u0985\u09ab\u09bf\u09b8 \u0987\u09ae\u09c7\u0987\u09b2' />
+          <LangText en='Work email' bn='অফিস ইমেইল' />
           <input
             name='email'
             type='email'
@@ -65,7 +65,7 @@ export default function DemoRequest() {
           />
         </label>
         <label>
-          <LangText en='Company' bn='\u0995\u09cb\u09ae\u09cd\u09aa\u09be\u09a8\u09bf' />
+          <LangText en='Company' bn='প্রতিষ্ঠানের নাম' />
           <input
             name='company'
             type='text'
@@ -74,7 +74,7 @@ export default function DemoRequest() {
           />
         </label>
         <label>
-          <LangText en='Mobile number' bn='\u09ae\u09cb\u09ac\u09be\u0987\u09b2 \u09a8\u09ae\u09cd\u09ac\u09b0' />
+          <LangText en='Mobile number' bn='মোবাইল নম্বর' />
           <input
             name='mobile'
             type='tel'
@@ -85,7 +85,7 @@ export default function DemoRequest() {
         <label className='wideField'>
           <LangText
             en='What should the demo cover?'
-            bn='\u09a1\u09c7\u09ae\u09cb\u09a4\u09c7 \u0995\u09c0 \u09a6\u09c7\u0996\u09a4\u09c7 \u099a\u09be\u09a8?'
+            bn='ডেমোতে আপনি কী দেখতে চান?'
           />
           <textarea
             name='message'
@@ -94,20 +94,20 @@ export default function DemoRequest() {
           />
         </label>
         <button className='primaryButton' type='submit'>
-          <LangText en='Send demo request' bn='\u09b0\u09bf\u0995\u09cb\u09df\u09c7\u09b8\u09cd\u099f \u09aa\u09be\u09a0\u09be\u09a8' />
+          <LangText en='Send demo request' bn='ডেমো অনুরোধ পাঠান' />
         </button>
         {submitted ? (
           <p className='formSuccess' role='status'>
             <LangText
               en='Thanks. Your demo request is ready.'
-              bn='\u09a7\u09a8\u09cd\u09af\u09ac\u09be\u09a6, \u0986\u09aa\u09a8\u09be\u09b0 \u09a1\u09c7\u09ae\u09cb \u09b0\u09bf\u0995\u09cb\u09df\u09c7\u09b8\u09cd\u099f \u09aa\u09cd\u09b0\u09b8\u09cd\u09a4\u09c1\u09a4\u0964'
+              bn='ধন্যবাদ। আপনার ডেমো অনুরোধ গ্রহণ করা হয়েছে।'
             />
           </p>
         ) : (
           <p className='formNote'>
             <LangText
               en='No commitment. A focused demo should explain value before it asks for change.'
-              bn='\u0995\u09cb\u09a8\u09cb \u0995\u09ae\u09bf\u099f\u09ae\u09c7\u09a8\u09cd\u099f \u09a8\u09c7\u0987\u0964 \u0986\u0997\u09c7 \u09ad\u09cd\u09af\u09be\u09b2\u09c1 \u09ac\u09c1\u099d\u09c1\u09a8, \u09a4\u09be\u09b0\u09aa\u09b0 \u09b8\u09bf\u09a6\u09cd\u09a7\u09be\u09a8\u09cd\u09a4 \u09a8\u09bf\u09a8\u0964'
+              bn='কোনো বাধ্যবাধকতা নেই। একটি ভালো ডেমো আগে উপকারিতা পরিষ্কার করবে, তারপর পরিবর্তনের কথা বলবে।'
             />
           </p>
         )}

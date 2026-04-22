@@ -82,31 +82,43 @@ const solutionOutcomes = [
     title: 'Faster Collection Control',
     bn: 'দ্রুত কালেকশন কন্ট্রোল',
     text: 'See what is collected, what is pending, and where follow-up is needed without checking multiple places.',
+    bnText:
+      'একাধিক জায়গা না দেখেই কী সংগ্রহ হয়েছে, কী বাকি আছে এবং কোথায় ফলো-আপ দরকার তা সহজে বোঝা যায়।',
   },
   {
     title: 'Clear Client Tracking',
     bn: 'পরিষ্কার ক্লায়েন্ট ট্র্যাকিং',
     text: 'Keep client status, active accounts, and payment relationships visible in one connected flow.',
+    bnText:
+      'একটি সংযুক্ত প্রবাহে ক্লায়েন্টের অবস্থা, সক্রিয় অ্যাকাউন্ট এবং পেমেন্ট সম্পর্ক সহজে দেখা যায়।',
   },
   {
     title: 'Daily Financial Clarity',
     bn: 'দৈনিক ফিন্যান্স ক্ল্যারিটি',
     text: 'Understand expense, profit, and due position every day so decisions can be made faster.',
+    bnText:
+      'প্রতিদিন খরচ, মুনাফা এবং বকেয়ার অবস্থা বুঝে দ্রুত সিদ্ধান্ত নেওয়া সম্ভব হয়।',
   },
   {
     title: 'Sales Monitor',
     bn: 'সেলস মনিটর',
     text: 'Track sales activity, follow performance trends, and keep daily sales progress visible in one place.',
+    bnText:
+      'সেলস কার্যক্রম, পারফরম্যান্সের ধারা এবং দৈনিক অগ্রগতি এক জায়গা থেকে দেখা যায়।',
   },
   {
     title: 'Better Team Coordination',
     bn: 'ভালো টিম কো-অর্ডিনেশন',
     text: 'Billing, receipt, accounts, and reporting stay aligned so teams work from the same information.',
+    bnText:
+      'বিলিং, রসিদ, অ্যাকাউন্টস এবং রিপোর্টিং একই তথ্যের ভিত্তিতে সমন্বিতভাবে কাজ করতে পারে।',
   },
   {
     title: 'Stronger Management View',
     bn: 'শক্তিশালী ম্যানেজমেন্ট ভিউ',
     text: 'Give owners and managers a clean dashboard view of business performance, client movement, and collection progress.',
+    bnText:
+      'ব্যবসার পারফরম্যান্স, ক্লায়েন্টের অগ্রগতি এবং কালেকশনের অবস্থা ম্যানেজমেন্ট সহজে দেখতে পারে।',
   },
 ];
 
@@ -145,21 +157,29 @@ const fitProfiles = [
     title: 'Multi-branch Businesses',
     bn: 'মাল্টি-ব্রাঞ্চ ব্যবসা',
     text: 'Keep branch-wise billing, collection, balance, and reporting visible from one connected system.',
+    bnText:
+      'একটি সংযুক্ত সিস্টেম থেকে শাখাভিত্তিক বিলিং, কালেকশন, ব্যালেন্স এবং রিপোর্টিং দেখা যায়।',
   },
   {
     title: 'Service and Subscription Teams',
     bn: 'সার্ভিস ও সাবস্ক্রিপশন টিম',
     text: 'Handle quotation, invoicing, renewals, money receipt, and follow-up without breaking the workflow.',
+    bnText:
+      'কোটেশন, ইনভয়েস, নবায়ন, মানি রিসিপ্ট এবং ফলো-আপ একই ওয়ার্কফ্লোতে সহজে পরিচালনা করা যায়।',
   },
   {
     title: 'Accounts and Collection Desks',
     bn: 'অ্যাকাউন্টস ও কালেকশন টিম',
     text: 'Track receivable movement, cheque status, expense, and daily financial control with less back-and-forth.',
+    bnText:
+      'কম ঝামেলায় রিসিভেবল, চেকের অবস্থা, খরচ এবং দৈনিক আর্থিক নিয়ন্ত্রণ পর্যবেক্ষণ করা যায়।',
   },
   {
     title: 'Owners and Managers',
     bn: 'ওনার ও ম্যানেজমেন্ট',
     text: 'Get a quicker management view of sales, expense, profit, due position, and operational progress.',
+    bnText:
+      'সেলস, খরচ, মুনাফা, বকেয়া এবং দৈনন্দিন অগ্রগতির দ্রুত ব্যবস্থাপনা-ভিউ পাওয়া যায়।',
   },
 ];
 
@@ -168,16 +188,22 @@ const whyChoosePoints = [
     title: 'Workflow Matched Setup',
     bn: 'ওয়ার্কফ্লো-ভিত্তিক সেটআপ',
     text: 'The site communicates how the ERP fits your real billing, accounts, collection, and reporting flow.',
+    bnText:
+      'এই সাইটটি দেখায় কীভাবে ERP আপনার বাস্তব বিলিং, অ্যাকাউন্টস, কালেকশন এবং রিপোর্টিং প্রবাহের সঙ্গে মানিয়ে যায়।',
   },
   {
     title: 'Decision-friendly Reporting',
     bn: 'ডিসিশন-ফ্রেন্ডলি রিপোর্টিং',
     text: 'Visitors can immediately understand that reports, graphs, and summaries support faster business decisions.',
+    bnText:
+      'রিপোর্ট, গ্রাফ এবং সারসংক্ষেপ কীভাবে দ্রুত ব্যবসায়িক সিদ্ধান্তে সহায়তা করে তা দর্শনার্থীরা সহজেই বুঝতে পারে।',
   },
   {
     title: 'Implementation Support',
     bn: 'ইমপ্লিমেন্টেশন সাপোর্ট',
     text: 'The product story already points toward demo, setup guidance, and practical onboarding help.',
+    bnText:
+      'প্রোডাক্ট উপস্থাপনাতেই ডেমো, সেটআপ নির্দেশনা এবং ব্যবহারিক অনবোর্ডিং সহায়তার ইঙ্গিত রয়েছে।',
   },
 ];
 
@@ -195,27 +221,45 @@ const trustHighlights = [
 const painComparisons = [
   {
     beforeTitle: 'Manual follow-up pressure',
+    beforeTitleBn: 'ম্যানুয়াল ফলো-আপের চাপ',
     beforeText:
       'Teams check calls, spreadsheets, and notes separately, so due follow-up gets delayed.',
+    beforeTextBn:
+      'টিমগুলো আলাদা আলাদা করে কল, স্প্রেডশিট এবং নোট দেখে, তাই বকেয়া ফলো-আপে দেরি হয়।',
     afterTitle: 'Central follow-up visibility',
+    afterTitleBn: 'কেন্দ্রীয় ফলো-আপ দৃশ্যমানতা',
     afterText:
       'Collection, receipt, and receivable status stay in one flow, so action becomes faster.',
+    afterTextBn:
+      'কালেকশন, রসিদ এবং রিসিভেবলের অবস্থা একই প্রবাহে থাকায় দ্রুত পদক্ষেপ নেওয়া যায়।',
   },
   {
     beforeTitle: 'Unclear daily numbers',
+    beforeTitleBn: 'অস্পষ্ট দৈনিক হিসাব',
     beforeText:
       'Sales, expense, and profit stay scattered, making daily business decisions slower.',
+    beforeTextBn:
+      'সেলস, খরচ এবং মুনাফার তথ্য ছড়িয়ে থাকায় দৈনিক ব্যবসায়িক সিদ্ধান্ত নিতে দেরি হয়।',
     afterTitle: 'Decision-ready daily snapshot',
+    afterTitleBn: 'সিদ্ধান্ত নেওয়ার উপযোগী দৈনিক চিত্র',
     afterText:
       'A clear dashboard and report view helps management understand today position immediately.',
+    afterTextBn:
+      'পরিষ্কার ড্যাশবোর্ড এবং রিপোর্ট ভিউ ম্যানেজমেন্টকে আজকের অবস্থা সঙ্গে সঙ্গে বুঝতে সাহায্য করে।',
   },
   {
     beforeTitle: 'Too much back-and-forth',
+    beforeTitleBn: 'অতিরিক্ত বারবার সমন্বয়ের প্রয়োজন',
     beforeText:
       'Billing, accounts, and reporting teams often work from different references and shared files.',
+    beforeTextBn:
+      'বিলিং, অ্যাকাউন্টস এবং রিপোর্টিং টিম অনেক সময় আলাদা রেফারেন্স ও শেয়ার করা ফাইল থেকে কাজ করে।',
     afterTitle: 'Connected operational flow',
+    afterTitleBn: 'সংযুক্ত কার্যক্রমের প্রবাহ',
     afterText:
       'Quotation, invoice, receipt, accounts, and report flow stay aligned inside one system.',
+    afterTextBn:
+      'কোটেশন, ইনভয়েস, রসিদ, অ্যাকাউন্টস এবং রিপোর্টের প্রবাহ একটি সিস্টেমেই সমন্বিত থাকে।',
   },
 ];
 
@@ -224,21 +268,29 @@ const workflows = [
     title: 'Sales to Billing',
     bn: 'সেলস থেকে বিলিং',
     text: 'Quotation, invoice, subscription, and money receipt stay connected so your billing cycle does not break.',
+    bnText:
+      'কোটেশন, ইনভয়েস, সাবস্ক্রিপশন এবং মানি রিসিপ্ট পরস্পর সংযুক্ত থাকায় বিলিং চক্র ব্যাহত হয় না।',
   },
   {
     title: 'Client to Collection',
     bn: 'ক্লায়েন্ট থেকে কালেকশন',
     text: 'Client profile, receivable view, and receipt history help your team follow every payment clearly.',
+    bnText:
+      'ক্লায়েন্ট প্রোফাইল, রিসিভেবল ভিউ এবং রসিদের ইতিহাসের মাধ্যমে প্রতিটি পেমেন্ট সহজে অনুসরণ করা যায়।',
   },
   {
     title: 'Expense to Profit',
     bn: 'খরচ থেকে লাভ',
     text: 'Expense entries and collection data show daily and monthly profitability from the same operational layer.',
+    bnText:
+      'খরচের এন্ট্রি এবং কালেকশন ডেটা থেকে একই জায়গায় দৈনিক ও মাসিক লাভজনকতা দেখা যায়।',
   },
   {
     title: 'Accounts to Reporting',
     bn: 'অ্যাকাউন্টস থেকে রিপোর্টিং',
     text: 'Account balance, branch records, cheque movement, and reports stay ready for management review.',
+    bnText:
+      'অ্যাকাউন্ট ব্যালেন্স, শাখার রেকর্ড, চেকের গতিবিধি এবং রিপোর্ট সবসময় ম্যানেজমেন্ট পর্যালোচনার জন্য প্রস্তুত থাকে।',
   },
 ];
 
@@ -248,6 +300,8 @@ const journeySteps = [
     title: 'Capture Demand',
     bn: 'চাহিদা ধরুন',
     text: 'Start with quotation and subscription so the sales conversation moves into a structured ERP process.',
+    bnText:
+      'কোটেশন এবং সাবস্ক্রিপশন দিয়ে শুরু করলে সেলস আলাপ একটি সুশৃঙ্খল ERP প্রক্রিয়ায় রূপ নেয়।',
     image:
       'https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1200&q=80',
   },
@@ -256,6 +310,8 @@ const journeySteps = [
     title: 'Bill and Receive',
     bn: 'বিলিং ও রিসিভ',
     text: 'Invoice and money receipt work together to make every collection event visible inside the same system.',
+    bnText:
+      'ইনভয়েস এবং মানি রিসিপ্ট একসাথে কাজ করে, ফলে প্রতিটি কালেকশন একই সিস্টেমে স্পষ্টভাবে দেখা যায়।',
     image:
       'https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1200&q=80',
   },
@@ -264,6 +320,8 @@ const journeySteps = [
     title: 'Review Operations',
     bn: 'অপারেশন রিভিউ',
     text: 'Accounts, expense, cheque management, and reports give management a clean control layer.',
+    bnText:
+      'অ্যাকাউন্টস, খরচ, চেক ব্যবস্থাপনা এবং রিপোর্ট মিলে ম্যানেজমেন্টকে একটি পরিষ্কার নিয়ন্ত্রণস্তর দেয়।',
     image:
       'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80',
   },
@@ -274,16 +332,22 @@ const reportBlocks = [
     title: 'Collection Snapshot',
     bn: 'কালেকশন স্ন্যাপশট',
     text: 'Inspired by your existing right-side cards, this section highlights today and this month at a glance.',
+    bnText:
+      'আপনার বর্তমান ডান পাশের কার্ডগুলোর অনুপ্রেরণায় এই অংশে আজ ও এই মাসের অবস্থা এক নজরে দেখানো হয়েছে।',
   },
   {
     title: 'Balance Status',
     bn: 'ব্যালেন্স স্ট্যাটাস',
     text: 'Branch account names, account numbers, and balance conditions can be introduced like the real ERP table.',
+    bnText:
+      'শাখাভিত্তিক অ্যাকাউন্টের নাম, নম্বর এবং ব্যালেন্সের অবস্থা বাস্তব ERP টেবিলের মতো তুলে ধরা যায়।',
   },
   {
     title: 'Client Summary',
     bn: 'ক্লায়েন্ট সামারি',
     text: 'Total, active, and inactive client counts communicate growth without inventing unrelated modules.',
+    bnText:
+      'মোট, সক্রিয় এবং নিষ্ক্রিয় ক্লায়েন্ট সংখ্যা দেখিয়ে অপ্রাসঙ্গিক মডিউল ছাড়াই প্রবৃদ্ধি বোঝানো যায়।',
   },
 ];
 
@@ -313,6 +377,8 @@ const showcasePanels = [
     title: 'Client and Collection Experience',
     bn: 'ক্লায়েন্ট ও কালেকশন এক্সপেরিয়েন্স',
     text: 'Give visitors a clean visual story of how client records, outstanding receivables, and money receipts stay connected.',
+    bnText:
+      'ক্লায়েন্ট রেকর্ড, বকেয়া রিসিভেবল এবং মানি রিসিপ্ট কীভাবে সংযুক্ত থাকে তা দর্শনার্থীদের পরিষ্কারভাবে দেখানো যায়।',
     image:
       'https://images.unsplash.com/photo-1556740749-887f6717d7e4?auto=format&fit=crop&w=1400&q=80',
   },
@@ -320,6 +386,8 @@ const showcasePanels = [
     title: 'Accounts and Reporting View',
     bn: 'অ্যাকাউন্টস ও রিপোর্টিং ভিউ',
     text: 'Use report-style panels and account summaries to present the software as a practical finance control center.',
+    bnText:
+      'রিপোর্ট-ধাঁচের প্যানেল এবং অ্যাকাউন্ট সারসংক্ষেপের মাধ্যমে সফটওয়্যারটিকে একটি কার্যকর আর্থিক নিয়ন্ত্রণকেন্দ্র হিসেবে উপস্থাপন করা যায়।',
     image:
       'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1400&q=80',
   },
@@ -595,13 +663,13 @@ export default function Home() {
             <h2>
               <LangText
                 en='A clearer way to monitor revenue flow, customer activity, finance records, and everyday operations.'
-                bn='revenue flow, customer activity, finance record আর everyday operation monitor করার জন্য আরও পরিষ্কার একটি way।'
+                bn='রাজস্ব প্রবাহ, গ্রাহকের কার্যক্রম, আর্থিক নথি এবং দৈনন্দিন কার্যক্রম আরও পরিষ্কারভাবে পর্যবেক্ষণ করার একটি সহজ উপায়।'
               />
             </h2>
             <p>
               <LangText
                 en='Every part of the business stays easier to track, easier to follow up, and easier to manage from one connected flow.'
-                bn='business-er প্রতিটি part এক connected flow-তে track করা, follow-up করা আর manage করা সহজ হয়ে যায়।'
+                bn='ব্যবসার প্রতিটি অংশ একটি সংযুক্ত প্রবাহে সহজে ট্র্যাক করা, ফলো-আপ করা এবং পরিচালনা করা যায়।'
               />
             </p>
             <div className='actualModuleMiniStats'>
@@ -628,7 +696,7 @@ export default function Home() {
                   <LangText en={item.title} bn={item.bn} />
                 </h3>
                 <p>
-                  <LangText en={item.text} bn={item.text} />
+                  <LangText en={item.text} bn={item.bnText} />
                 </p>
               </article>
             ))}
@@ -644,7 +712,7 @@ export default function Home() {
           <h2>
             <LangText
               en='Let users feel how one action moves naturally to the next inside your ERP.'
-              bn='user jeno feel korte pare, apnar ERP-te ekta action kivabe naturally next step-e jay।'
+              bn='ব্যবহারকারীরা যেন অনুভব করতে পারে, আপনার ERP-এ একটি কাজ কীভাবে স্বাভাবিকভাবে পরের ধাপে এগিয়ে যায়।'
             />
           </h2>
         </div>
@@ -667,7 +735,7 @@ export default function Home() {
                   <LangText en={step.title} bn={step.bn} />
                 </h3>
                 <p>
-                  <LangText en={step.text} bn={step.text} />
+                  <LangText en={step.text} bn={step.bnText} />
                 </p>
               </div>
             </article>
@@ -683,7 +751,7 @@ export default function Home() {
           <h2>
             <LangText
               en='Visitors connect faster when they can quickly see whether the product fits their business type.'
-              bn='visitor দ্রুত connect করে যখন সে সহজেই বুঝতে পারে product-ta তার business type-এর সাথে মানানসই কি না।'
+              bn='দর্শনার্থীরা দ্রুত আগ্রহী হয়, যখন তারা সহজেই বুঝতে পারে পণ্যটি তাদের ব্যবসার ধরনে মানানসই কি না।'
             />
           </h2>
         </div>
@@ -694,7 +762,7 @@ export default function Home() {
                 <LangText en={item.title} bn={item.bn} />
               </h3>
               <p>
-                <LangText en={item.text} bn={item.text} />
+                <LangText en={item.text} bn={item.bnText} />
               </p>
             </article>
           ))}
@@ -713,13 +781,13 @@ export default function Home() {
             <h2>
               <LangText
                 en='Built around the numbers your users see first every morning.'
-                bn='প্রতিদিন সকালেই যেসব সংখ্যা user-ra প্রথমে দেখে, design-ta এখন সেগুলোকেই কেন্দ্র করে।'
+                bn='প্রতিদিন সকালে ব্যবহারকারীরা যে সংখ্যাগুলো সবার আগে দেখে, এই নকশা এখন সেগুলোকেই কেন্দ্র করে তৈরি।'
               />
             </h2>
             <p>
               <LangText
                 en='Collection, expense, profit, receivable, balance status, and client counts form the public-facing message of the product.'
-                bn='collection, expense, profit, receivable, balance status আর client count-ই এখন product-er public-facing message তৈরি করে।'
+                bn='কালেকশন, খরচ, মুনাফা, রিসিভেবল, ব্যালেন্স অবস্থা এবং ক্লায়েন্ট সংখ্যা এখন পণ্যের মূল বার্তা তুলে ধরে।'
               />
             </p>
           </div>
@@ -729,7 +797,9 @@ export default function Home() {
                 <small>
                   <LangText en={card.title} bn={card.bn} />
                 </small>
-                <strong>Live View</strong>
+                <strong>
+                  <LangText en='Live View' bn='সরাসরি দৃশ্য' />
+                </strong>
               </article>
             ))}
           </div>
@@ -820,7 +890,7 @@ export default function Home() {
                   <LangText en={panel.title} bn={panel.bn} />
                 </h2>
                 <p>
-                  <LangText en={panel.text} bn={panel.text} />
+                  <LangText en={panel.text} bn={panel.bnText} />
                 </p>
                 <div className='showcaseHighlights'>
                   <span>
@@ -833,7 +903,7 @@ export default function Home() {
                     />
                   </span>
                   <span>
-                    <LangText en='Better user flow' bn='বেটার ইউজার ফ্লো' />
+                    <LangText en='Better user flow' bn='উন্নত ব্যবহারকারী প্রবাহ' />
                   </span>
                 </div>
               </div>
@@ -853,7 +923,7 @@ export default function Home() {
           <h2>
             <LangText
               en='The site narrative now follows your actual business flow.'
-              bn='site-er narrative এখন আপনার actual business flow follow করে।'
+              bn='এই সাইটের বর্ণনা এখন আপনার বাস্তব ব্যবসায়িক প্রবাহকেই অনুসরণ করে।'
             />
           </h2>
         </div>
@@ -864,7 +934,7 @@ export default function Home() {
                 <LangText en={item.title} bn={item.bn} />
               </h3>
               <p>
-                <LangText en={item.text} bn={item.text} />
+                <LangText en={item.text} bn={item.bnText} />
               </p>
             </article>
           ))}
@@ -892,7 +962,7 @@ export default function Home() {
           <h2>
             <LangText
               en='Reports, account summaries, and financial graphs now carry the story more clearly.'
-              bn='রিপোর্ট, অ্যাকাউন্ট সামারি আর ফিন্যান্সিয়াল গ্রাফ এখন story-ta আরও পরিষ্কারভাবে তুলে ধরে।'
+              bn='রিপোর্ট, অ্যাকাউন্ট সারসংক্ষেপ এবং আর্থিক গ্রাফ এখন বিষয়টি আরও পরিষ্কারভাবে তুলে ধরে।'
             />
           </h2>
         </div>
@@ -904,7 +974,7 @@ export default function Home() {
                   <LangText en={block.title} bn={block.bn} />
                 </h3>
                 <p>
-                  <LangText en={block.text} bn={block.text} />
+                  <LangText en={block.text} bn={block.bnText} />
                 </p>
               </article>
             ))}
@@ -926,11 +996,13 @@ export default function Home() {
               <h3>
                 <LangText
                   en='A better arranged report section helps users grasp sales, expense, and profit trends instantly.'
-                  bn='আরও সুন্দরভাবে সাজানো report section user-কে sales, expense আর profit trend দ্রুত বুঝতে সাহায্য করে।'
+                  bn='আরও সুন্দরভাবে সাজানো রিপোর্ট সেকশন ব্যবহারকারীদের সেলস, খরচ এবং মুনাফার ধারা দ্রুত বুঝতে সাহায্য করে।'
                 />
               </h3>
             </div>
-            <strong>Live</strong>
+            <strong>
+              <LangText en='Live' bn='লাইভ' />
+            </strong>
           </div>
 
           <div className='reportsOverviewStats'>
@@ -987,18 +1059,18 @@ export default function Home() {
         <div className='trustInner'>
           <div className='trustIntro'>
             <p className='eyebrow'>
-              <LangText en='Why This Site Works' bn='কেন এই site কাজ করে' />
+              <LangText en='Why This Site Works' bn='কেন এই সাইট কার্যকর' />
             </p>
             <h2>
               <LangText
                 en='Less delay, less confusion, and a much easier way to manage everyday ERP work.'
-                bn='কম delay, কম confusion, আর দৈনন্দিন ERP কাজ manage করার অনেক সহজ একটি উপায়।'
+                bn='কম দেরি, কম জটিলতা এবং প্রতিদিনের ERP কাজ আরও সহজভাবে পরিচালনার একটি কার্যকর উপায়।'
               />
             </h2>
             <p>
               <LangText
                 en='Visitors do not need internal complexity first. They need to see fewer delays, less confusion, faster follow-up, and a cleaner reporting view.'
-                bn='visitor প্রথমেই internal complexity দেখতে চায় না। সে দেখতে চায় কম delay, কম confusion, দ্রুত follow-up আর cleaner reporting view।'
+                bn='দর্শনার্থীরা শুরুতেই ভেতরের জটিলতা দেখতে চায় না। তারা দেখতে চায় কম বিলম্ব, কম বিভ্রান্তি, দ্রুত ফলো-আপ এবং আরও পরিষ্কার রিপোর্টিং ভিউ।'
               />
             </p>
           </div>
@@ -1011,9 +1083,13 @@ export default function Home() {
                     <LangText en='Before ERP' bn='ERP-এর আগে' />
                   </strong>
                   <p>
-                    <strong>{item.beforeTitle}</strong>
+                    <strong>
+                      <LangText en={item.beforeTitle} bn={item.beforeTitleBn} />
+                    </strong>
                   </p>
-                  <p>{item.beforeText}</p>
+                  <p>
+                    <LangText en={item.beforeText} bn={item.beforeTextBn} />
+                  </p>
                 </div>
                 <span aria-hidden='true'>+</span>
                 <div>
@@ -1021,9 +1097,13 @@ export default function Home() {
                     <LangText en='With ERP' bn='ERP-এর পরে' />
                   </strong>
                   <p>
-                    <strong>{item.afterTitle}</strong>
+                    <strong>
+                      <LangText en={item.afterTitle} bn={item.afterTitleBn} />
+                    </strong>
                   </p>
-                  <p>{item.afterText}</p>
+                  <p>
+                    <LangText en={item.afterText} bn={item.afterTextBn} />
+                  </p>
                 </div>
               </article>
             ))}
@@ -1036,7 +1116,7 @@ export default function Home() {
                   <LangText en={item.title} bn={item.bn} />
                 </h3>
                 <p>
-                  <LangText en={item.text} bn={item.text} />
+                  <LangText en={item.text} bn={item.bnText} />
                 </p>
               </article>
             ))}
@@ -1065,13 +1145,13 @@ export default function Home() {
         <h2>
           <LangText
             en='This design now reflects the real ERP product your visitors will actually log into.'
-            bn='এই design এখন সেই real ERP product-কেই reflect করে, যেটাতে visitor-ra আসলে login করবে।'
+            bn='এই নকশা এখন সেই বাস্তব ERP পণ্যকেই উপস্থাপন করে, যেটিতে দর্শনার্থীরা শেষ পর্যন্ত লগইন করবে।'
           />
         </h2>
         <p>
           <LangText
             en='The homepage focuses on your authentic modules, authentic dashboard patterns, and authentic finance-client-reporting story.'
-            bn='homepage এখন authentic module, authentic dashboard pattern, আর authentic finance-client-reporting story-কেই focus করে।'
+            bn='হোমপেজ এখন আপনার বাস্তব মডিউল, বাস্তব ড্যাশবোর্ড ধারা এবং প্রকৃত ফাইন্যান্স-ক্লায়েন্ট-রিপোর্টিং গল্পকেই গুরুত্ব দেয়।'
           />
         </p>
         <a className='primaryButton' href='#top'>
@@ -1094,7 +1174,7 @@ export default function Home() {
             <p>
               <LangText
                 en='A focused ERP website for billing, collection, accounts, clients, reporting, payroll, administration, and operational visibility.'
-                bn='billing, collection, accounts, client, reporting, payroll, administration আর operational visibility-কেন্দ্রিক একটি ERP website।'
+                bn='বিলিং, কালেকশন, অ্যাকাউন্টস, ক্লায়েন্ট, রিপোর্টিং, পেরোল, অ্যাডমিনিস্ট্রেশন এবং কার্যক্রমের দৃশ্যমানতা-কেন্দ্রিক একটি ERP ওয়েবসাইট।'
               />
             </p>
             <div

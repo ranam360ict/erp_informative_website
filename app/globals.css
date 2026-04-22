@@ -1737,6 +1737,11 @@ p {
   color: var(--white);
 }
 
+.demoIntro h2 {
+  font-size: clamp(2.15rem, 3vw, 3rem);
+  text-wrap: balance;
+}
+
 .demoHighlights {
   display: grid;
   gap: 10px;
