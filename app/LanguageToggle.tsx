@@ -1,57 +1,53 @@
-﻿"use client";
+"use client";
 
-import { useEffect, useSyncExternalStore } from "react";
+import { useEffect, useState } from "react";
 
 type Language = "en" | "bn";
+
 const STORAGE_KEY = "site-language";
-const CHANGE_EVENT = "site-language-change";
 
-function getStoredLanguage(): Language {
-  if (typeof window === "undefined") {
-    return "en";
+function readLanguage(): Language {
+  if (typeof window !== "undefined") {
+    const savedLanguage = window.localStorage.getItem(STORAGE_KEY);
+    if (savedLanguage === "bn") {
+      return "bn";
+    }
+
+    if (savedLanguage === "en") {
+      return "en";
+    }
   }
 
-  const savedLanguage = window.localStorage.getItem(STORAGE_KEY);
-  if (savedLanguage === "bn") {
-    return "bn";
+  if (typeof document !== "undefined") {
+    if (
+      document.documentElement.dataset.lang === "bn" ||
+      document.documentElement.lang === "bn"
+    ) {
+      return "bn";
+    }
   }
 
-  return document.documentElement.dataset.lang === "bn" ||
-    document.documentElement.lang === "bn"
-    ? "bn"
-    : "en";
+  return "en";
 }
 
-function subscribe(onStoreChange: () => void) {
-  if (typeof window === "undefined") {
-    return () => {};
-  }
-
-  const handleChange = () => onStoreChange();
-
-  window.addEventListener("storage", handleChange);
-  window.addEventListener(CHANGE_EVENT, handleChange);
-
-  return () => {
-    window.removeEventListener("storage", handleChange);
-    window.removeEventListener(CHANGE_EVENT, handleChange);
-  };
+function applyLanguage(language: Language) {
+  document.documentElement.dataset.lang = language;
+  document.documentElement.lang = language;
+  window.localStorage.setItem(STORAGE_KEY, language);
 }
 
 export default function LanguageToggle() {
-  const language = useSyncExternalStore(subscribe, getStoredLanguage, () => "en");
+  const [language, setLanguage] = useState<Language>("en");
 
   useEffect(() => {
-    document.documentElement.dataset.lang = language;
-    document.documentElement.lang = language;
-    window.localStorage.setItem(STORAGE_KEY, language);
-  }, [language]);
+    const nextLanguage = readLanguage();
+    applyLanguage(nextLanguage);
+    setLanguage(nextLanguage);
+  }, []);
 
   function changeLanguage(nextLanguage: Language) {
-    document.documentElement.dataset.lang = nextLanguage;
-    document.documentElement.lang = nextLanguage;
-    window.localStorage.setItem(STORAGE_KEY, nextLanguage);
-    window.dispatchEvent(new Event(CHANGE_EVENT));
+    setLanguage(nextLanguage);
+    applyLanguage(nextLanguage);
   }
 
   return (
@@ -63,6 +59,7 @@ export default function LanguageToggle() {
       <button
         type="button"
         className={language === "en" ? "active" : ""}
+        aria-pressed={language === "en"}
         onClick={() => changeLanguage("en")}
       >
         English
@@ -70,9 +67,10 @@ export default function LanguageToggle() {
       <button
         type="button"
         className={language === "bn" ? "active" : ""}
+        aria-pressed={language === "bn"}
         onClick={() => changeLanguage("bn")}
       >
-        বাংলা
+        {"\u09AC\u09BE\u0982\u09B2\u09BE"}
       </button>
     </div>
   );

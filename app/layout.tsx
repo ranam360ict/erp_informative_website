@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Script from 'next/script';
 import './globals.css';
 
 export const metadata: Metadata = {
@@ -69,8 +70,22 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang='en'>
-      <body>{children}</body>
+    <html lang='en' data-lang='en' suppressHydrationWarning>
+      <body>
+        <Script id='persist-language' strategy='beforeInteractive'>
+          {`
+            (function () {
+              try {
+                var savedLanguage = window.localStorage.getItem('site-language');
+                var language = savedLanguage === 'bn' ? 'bn' : 'en';
+                document.documentElement.lang = language;
+                document.documentElement.setAttribute('data-lang', language);
+              } catch (error) {}
+            })();
+          `}
+        </Script>
+        {children}
+      </body>
     </html>
   );
 }
