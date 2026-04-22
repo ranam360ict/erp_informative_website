@@ -4,7 +4,7 @@ import './globals.css';
 
 export const metadata: Metadata = {
   title: {
-    default: 'ERP | Smart ERP Software Guide',
+    default: 'ERP | Smart ERP Software',
     template: '%s | ERP',
   },
   icons: {
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'ERP | Smart ERP Software Guide',
+    title: 'ERP | Smart ERP Software',
     description:
       'A visual ERP guide covering modules, business benefits, implementation roadmap, selection criteria, and demo requests.',
     type: 'website',
@@ -60,7 +60,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'ERP | Smart ERP Software Guide',
+    title: 'ERP | Smart ERP Software',
     description:
       'Learn ERP modules, benefits, implementation steps, and how to request a focused ERP demo.',
     images: [
