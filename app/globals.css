@@ -4072,6 +4072,19 @@ p {
     padding-top: 132px;
   }
 
+  .erpHeroPanel .heroActions {
+    flex-wrap: nowrap;
+    gap: 10px;
+  }
+
+  .erpHeroPanel .heroActions .primaryButton,
+  .erpHeroPanel .heroActions .secondaryButton {
+    min-width: 0;
+    flex: 1 1 0;
+    padding: 14px 12px;
+    font-size: 0.92rem;
+  }
+
   .erpHeroPanel h1 {
     font-size: 2.15rem;
   }
