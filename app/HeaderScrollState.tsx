@@ -14,10 +14,11 @@ export default function HeaderScrollState() {
 
       if (nav) {
         nav.style.top = isScrolled ? "0" : "14px";
-        nav.style.background = isScrolled ? "rgba(255, 255, 255, 0.96)" : "transparent";
+        nav.style.background = isScrolled ? "#ffffff" : "transparent";
         nav.style.backdropFilter = isScrolled ? "blur(16px)" : "none";
-        nav.style.boxShadow = isScrolled ? "0 18px 42px rgba(0, 127, 168, 0.14)" : "none";
-        nav.style.borderRadius = isScrolled ? "0 0 8px 8px" : "8px";
+        nav.style.boxShadow = isScrolled ? "0 16px 36px rgba(8, 45, 59, 0.12)" : "none";
+        nav.style.border = isScrolled ? "1px solid rgba(0, 180, 233, 0.12)" : "0";
+        nav.style.borderRadius = isScrolled ? "0 0 10px 10px" : "8px";
       }
     }
 

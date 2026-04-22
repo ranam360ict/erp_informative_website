@@ -160,10 +160,11 @@ body.pageScrolled .nav,
 .nav.navScrolled {
   width: min(1480px, calc(100% - 16px));
   top: 0;
-  background: rgba(255, 255, 255, 0.96);
-  border-radius: 0 0 8px 8px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 180, 233, 0.12);
+  border-radius: 0 0 10px 10px;
   backdrop-filter: blur(16px);
-  box-shadow: 0 18px 42px rgba(0, 127, 168, 0.14);
+  box-shadow: 0 16px 36px rgba(8, 45, 59, 0.12);
 }
 
 .brand {
