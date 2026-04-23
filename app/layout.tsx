@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     shortcut: '/erp_logo.png',
     apple: '/erp_logo.png',
   },
-  metadataBase: new URL(''),
+  metadataBase: new URL('https://v2.erpbd.online/login'),
   description:
     'M360ict ERP software - Smart financial control, invoice management, payroll automation, accounts receivable, and business analytics. Real-time dashboards, collection tracking, client management, and expense control for growing businesses.',
   keywords: [
