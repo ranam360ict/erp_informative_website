@@ -51,7 +51,7 @@ export const metadata: Metadata = {
     siteName: 'ERP',
     images: [
       {
-        url: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80',
+        url: '/erp.png',
         width: 1200,
         height: 800,
         alt: 'ERP analytics dashboard and business intelligence preview',
@@ -63,9 +63,7 @@ export const metadata: Metadata = {
     title: 'ERP | Smart ERP Software',
     description:
       'Learn ERP modules, benefits, implementation steps, and how to request a focused ERP demo.',
-    images: [
-      'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80',
-    ],
+    images: ['/erp.png'],
   },
 };
 
