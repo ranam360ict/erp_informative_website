@@ -406,13 +406,13 @@ export default function Home() {
   return (
     <main className='erpLanding'>
       <HeaderScrollState />
-      <a
+      {/* <a
         className='floatingDemoButton'
         href='#demo'
         aria-label='Go to request a demo form'
       >
         <LangText en='Request Demo' bn='ডেমো চাই' />
-      </a>
+      </a> */}
 
       <header className='hero erpHero' id='top'>
         <nav className='nav' aria-label='Main navigation'>
@@ -451,9 +451,9 @@ export default function Home() {
             <a href='#pricing'>
               <LangText en='Pricing' bn='প্রাইসিং' />
             </a>
-            <a className='navDemoButton' href='#demo'>
+            {/* <a className='navDemoButton' href='#demo'>
               <LangText en='Request Demo' bn='ডেমো চাই' />
-            </a>
+            </a> */}
           </div>
           <LanguageToggle />
         </nav>
@@ -903,7 +903,10 @@ export default function Home() {
                     />
                   </span>
                   <span>
-                    <LangText en='Better user flow' bn='উন্নত ব্যবহারকারী প্রবাহ' />
+                    <LangText
+                      en='Better user flow'
+                      bn='উন্নত ব্যবহারকারী প্রবাহ'
+                    />
                   </span>
                 </div>
               </div>
@@ -1136,7 +1139,7 @@ export default function Home() {
       </section>
 
       <PricingPlans />
-      <DemoRequest />
+      {/* <DemoRequest /> */}
 
       <section className='cta animatedSection'>
         <p className='eyebrow'>
@@ -1233,9 +1236,9 @@ export default function Home() {
             <a href='#reports'>
               <LangText en='Reports' bn='রিপোর্ট' />
             </a>
-            <a href='#demo'>
+            {/* <a href='#demo'>
               <LangText en='Request Demo' bn='ডেমো চাই' />
-            </a>
+            </a> */}
           </div>
 
           <div className='footerSupport'>

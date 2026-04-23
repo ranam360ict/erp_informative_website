@@ -22,9 +22,9 @@ export default function DemoRequest() {
   return (
     <section className='demoRequest animatedSection' id='demo'>
       <div className='demoIntro'>
-        <p className='eyebrow'>
+        {/* <p className='eyebrow'>
           <LangText en='Request A Demo' bn='ডেমো অনুরোধ' />
-        </p>
+        </p> */}
         <h2>
           <LangText
             en='See how ERP can match your real workflow.'
@@ -75,12 +75,7 @@ export default function DemoRequest() {
         </label>
         <label>
           <LangText en='Mobile number' bn='মোবাইল নম্বর' />
-          <input
-            name='mobile'
-            type='tel'
-            placeholder='01XXXXXXXXX'
-            required
-          />
+          <input name='mobile' type='tel' placeholder='01XXXXXXXXX' required />
         </label>
         <label className='wideField'>
           <LangText
