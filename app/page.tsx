@@ -420,8 +420,8 @@ export default function Home() {
             <Image
               src='/erp_logo.png'
               alt='ERP logo'
-              width={240}
-              height={75}
+              width={200}
+              height={62}
               priority
             />
           </a>

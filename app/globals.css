@@ -136,7 +136,7 @@ img {
 .nav {
   width: min(1480px, calc(100% - 16px));
   margin: 0;
-  padding: 12px 14px;
+  padding: 8px 12px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -168,15 +168,15 @@ body.pageScrolled .nav,
 }
 
 .brand {
-  width: 158px;
-  min-height: 46px;
+  width: 140px;
+  min-height: 40px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   background: rgba(255, 255, 255, 0.92);
   border: 1px solid rgba(0, 180, 233, 0.42);
   border-radius: 8px;
-  padding: 6px 9px;
+  padding: 4px 7px;
   box-shadow: 0 0 28px rgba(0, 180, 233, 0.18);
 }
 
